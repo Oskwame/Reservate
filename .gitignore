@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# builds
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# generated
+apps/api/database/generated/
+
+# turbo
+.turbo/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# logs
+*.log
+npm-debug.log*
+
+# editors
+.DS_Store
+.idea/
+.vscode/
+
+# test coverage
+coverage/
